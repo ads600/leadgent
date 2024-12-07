@@ -1,0 +1,55 @@
+body{
+  margin: 0pc;
+  padding:0px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:200 ;
+}
+#page-head{
+  position:sticky;
+  top:-1px;
+  z-index:9;
+  background: red;
+}
+#page-head.stuck{
+  background: red;
+}
+.header-text{
+  color: white;
+  padding:5px 0px 5px 10px;
+  
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    }
+  /* p{
+    display: inline;
+  } */
+  .banner2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom:50px;
+    /* width: 70%; */
+  }
+  .text{
+text-align: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .banner2{
+     width: 80%;
+     padding-top: 20px;
+     padding-bottom:20px;
+    }
+    .banner {
+           width: 100%;
+           padding-top: 10px;
+    }
+  }
